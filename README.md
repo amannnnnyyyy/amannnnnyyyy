@@ -1,117 +1,85 @@
 <div align="center">
 
-  <!-- Interactive Terminal SVG Header -->
-  <a href="https://github.com/amannnnnyyyy">
-    <img src="assets/terminal.svg" width="100%" alt="AMN-OS Terminal" />
+  <!-- Flowing Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=220&section=header&text=Amanuel%20Moha&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Machine%20Learning%20%7C%20Full-Stack%20%7C%20Android&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
+
+  <!-- Animated Typing Headline -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=00D2FF&center=true&vCenter=true&width=620&lines=Software+Engineer+%26+ML+Practitioner;Building+Intelligent+%26+Scalable+Systems;Python+%E2%80%A2+TypeScript+%E2%80%A2+Kotlin+%E2%80%A2+React;Crafting+End-to-End+AI+%26+Mobile+Solutions" alt="Typing SVG" />
   </a>
 
-  <br/>
-
-  <!-- Status Ribbon & Live Action Trigger -->
   <p align="center">
-    <code>SYS.LOC: ADDIS ABABA // EAST AFRICA (EAT)</code> &nbsp;•&nbsp; 
-    <code>UPTIME: 99.98%</code> &nbsp;•&nbsp; 
-    <code>CLEARANCE: LEVEL 5</code> &nbsp;•&nbsp;
-    <a href="https://github.com/amannnnnyyyy/amannnnnyyyy/issues/new?template=logbook_entry.yml">
-      <b>[⚡ TRANSMIT HANDSHAKE TO LOGBOOK]</b>
-    </a>
+    <a href="mailto:mohaaman922@gmail.com"><img src="https://img.shields.io/badge/Email-mohaaman922%40gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="https://github.com/amannnnnyyyy"><img src="https://img.shields.io/badge/GitHub-amannnnnyyyy-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+    <img src="https://komarev.com/ghpvc/?username=amannnnnyyyy&label=Profile%20Views&color=00B4D8&style=flat-square" alt="Profile Views" />
   </p>
 
 </div>
 
 ---
 
-### 🕹️ Interactive Command Deck
+### About Me
 
-> Click the prompt queries below to execute diagnostic scans and explore the subsystems.
+I am a Software Engineer and Machine Learning Practitioner with a strong focus on building end-to-end applications across natural language processing, quantitative time-series modeling, native Android, and full-stack web platforms.
 
-<details open>
-<summary><b>▸ <code>./amn --diagnostics // Executive Summary &amp; Engineering Focus</code></b></summary>
-<br/>
+- **Data Science & AI**: Experience fine-tuning multilingual transformer models (XLM-RoBERTa for low-resource languages), developing predictive risk models, and applying quantitative forecasting algorithms (ARIMA, SARIMA, LSTM).
+- **Mobile Development**: Native Android development using Kotlin, Jetpack Compose, and modern reactive architecture.
+- **Full-Stack Web**: Designing fast, scalable applications using React, Next.js, TypeScript, and Three.js for interactive 3D web graphics.
+- **Engineering Philosophy**: Clean, maintainable code with robust modular architecture and testability.
 
-```yaml
-Operator: "Amanuel Moha"
-Role: "Software Engineer & Machine Learning Practitioner"
-Primary_Vectors:
-  - "Multilingual Natural Language Processing (Low-Resource Languages & Fine-Tuning)"
-  - "Algorithmic Time-Series Forecasting & Quantitative Risk Modeling"
-  - "Native Reactive Android Engineering (Jetpack Compose & Kotlin)"
-  - "Immersive Web Applications (Three.js 3D & Modern Distributed Stacks)"
-Status: "Ready for high-impact technical challenges, research collaborations & engineering roles"
-Location: "Addis Ababa, Ethiopia (Open to Remote / Global Relocation)"
-```
+---
 
-I build end-to-end intelligent systems that bridge mathematical theory with production-grade engineering. Whether developing custom transformer fine-tuning pipelines for under-represented languages, optimizing time-series neural networks for asset management, or crafting silky 60fps reactive native mobile apps, I focus on system resilience, modularity, and measurable impact.
+### Technologies & Frameworks
 
-</details>
+<div align="center">
 
-<details>
-<summary><b>▸ <code>./amn --architecture // Engineering Subsystems &amp; Blueprint</code></b></summary>
-<br/>
+#### Machine Learning & Data Science
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
 
-```
-╔════════════════════════════════════════════════════════════════════════════════════════╗
-║                              AMN-OS SYSTEM ARCHITECTURE                                ║
-╠════════════════════════════════════════════════════════════════════════════════════════╣
-║                                                                                        ║
-║   [ LAYER 01 // INTELLIGENCE & DATA PLATFORMS ]                                        ║
-║   ├── NLP & Transformers      : Hugging Face • XLM-RoBERTa • Custom Tokenization       ║
-║   ├── Deep Learning / Math    : PyTorch • TensorFlow • Scikit-Learn • Pandas • NumPy   ║
-║   ├── Predictive Analytics    : ARIMA • SARIMA • LSTM • Anomaly & Fraud Classifiers   ║
-║   └── Analytical Pipelines    : Automated ETL • Streamlit • Jupyter Labs               ║
-║                                                                                        ║
-║   [ LAYER 02 // INTERFACE & RUNTIME ENGINES ]                                          ║
-║   ├── Native Mobile Core      : Kotlin • Android SDK • Jetpack Compose • Coroutines    ║
-║   ├── Web Engineering         : TypeScript • JavaScript • React • Next.js • Tailwind   ║
-║   └── Graphics & Spatial      : Three.js • WebGL 3D Pipelines                          ║
-║                                                                                        ║
-║   [ LAYER 03 // BACKEND & INFRASTRUCTURE CORE ]                                        ║
-║   ├── Services & Runtime      : Node.js • Express • Java • Spring Boot • Python APIs   ║
-║   ├── Data Stores             : PostgreSQL • MySQL • MongoDB                           ║
-║   └── DevOps & Orchestration  : Docker • Git • GitHub Actions CI/CD                    ║
-║                                                                                        ║
-╚════════════════════════════════════════════════════════════════════════════════════════╝
-```
+#### Frontend & Mobile Development
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+[![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org)
+[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org)
+[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com)
+[![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)](https://developer.android.com/jetpack/compose)
 
-</details>
+#### Backend, Databases & DevOps
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org)
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com)
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com)
 
-<details open>
-<summary><b>▸ <code>./amn --dossier // Declassified Flagship Projects</code></b></summary>
-<br/>
+</div>
 
-#### 1. 🧠 [EthioMart: Amharic Named Entity Recognition](https://github.com/amannnnnyyyy/Amharic-NER-for-Telegram)
-> *High-precision information extraction system for unstructured African e-commerce channels.*
-- **Challenge**: E-commerce in Ethiopia operates predominantly through unstructured messaging channels (Telegram), lacking standard schemas.
-- **Solution**: Built an end-to-end NLP pipeline that scrapes, ingests, tokenizes, and annotates multi-channel Amharic text, fine-tuning multilingual models (**XLM-RoBERTa**) to extract products, prices, and entity metadata.
-- **Tech**: `Python` • `Transformers` • `PyTorch` • `XLM-RoBERTa` • `Data Pipelines`
+---
 
-#### 2. 📈 [Finance Forecast & Portfolio Optimizer](https://github.com/amannnnnyyyy/Finance-Forecast-Portfolio-Optimizer)
-> *Quantitative time-series forecasting and capital allocation engine for GMF Investments.*
-- **Challenge**: Navigating market volatility through predictive modeling and multi-asset risk optimization.
-- **Solution**: Developed a multi-stage time-series suite deploying **ARIMA**, seasonal **SARIMA**, and deep **LSTM** neural networks, integrated with Sharpe ratio maximization and Monte Carlo risk simulations.
-- **Tech**: `Python` • `LSTM` • `Time-Series` • `Statistical Modeling` • `Financial Engineering`
+### Featured Projects
 
-#### 3. 🏥 [Ethiopian Medical Business Data Warehouse](https://github.com/amannnnnyyyy/telegram-medical-business-data)
-> *Scalable health-sector ETL and analytical data warehouse.*
-- **Challenge**: Fragmented medical commercial data distributed across decentralized channels.
-- **Solution**: Engineered an automated scraping, deduplication, and transformation pipeline feeding a centralized analytical data warehouse for pharmaceutical trend analysis.
-- **Tech**: `Data Warehousing` • `ETL` • `Python` • `Data Engineering`
+| Project | Description | Stack | Link |
+| :--- | :--- | :--- | :---: |
+| **Amharic NER for Telegram** | Named Entity Recognition pipeline for EthioMart consolidating unstructured Telegram e-commerce data. Includes ingestion, preprocessing, and fine-tuning multilingual models (XLM-RoBERTa). |    | [Repository](https://github.com/amannnnnyyyy/Amharic-NER-for-Telegram) |
+| **Finance Forecast & Portfolio Optimizer** | Time-series forecasting and portfolio risk optimization using ARIMA, SARIMA, and LSTM neural networks for financial trend prediction and asset allocation. |    | [Repository](https://github.com/amannnnnyyyy/Finance-Forecast-Portfolio-Optimizer) |
+| **Telegram Medical Data Warehouse** | Data warehouse and analytical ETL pipeline designed to extract, clean, and analyze health and medical business data from public communication channels. |    | [Repository](https://github.com/amannnnnyyyy/telegram-medical-business-data) |
+| **Simple Dictionary & Crew** | Native Android applications built with declarative UI in Jetpack Compose, featuring clean architecture and reactive state management. |    | [Repository](https://github.com/amannnnnyyyy/Simple-Dictionary-App) |
+| **Three.js Portfolio & Web Platform** | Interactive web experience powered by Three.js, React, and Vite, featuring 3D scene rendering, custom animations, and responsive UI design. |    | [Repository](https://github.com/amannnnnyyyy/PortfolioWebsite) |
 
-#### 4. 📱 [Jetpack Compose Native Android Systems](https://github.com/amannnnnyyyy/Simple-Dictionary-App)
-> *Modern reactive mobile applications built for performance and intuitive UX.*
-- **Highlights**: Built production-quality Android applications using **Kotlin** and **Jetpack Compose** (`Crew` employee manager and `Simple-Dictionary-App`), featuring unidirectional data flow, clean architecture, and reactive states.
-- **Tech**: `Kotlin` • `Jetpack Compose` • `Android SDK` • `Coroutines`
+---
 
-#### 5. 🌐 [Interactive 3D Web Engine & Portfolio](https://github.com/amannnnnyyyy/PortfolioWebsite)
-> *Spatial web experience combining modern frontend architecture with interactive 3D computing.*
-- **Highlights**: Implemented dynamic scene rendering, custom shaders, and lighting controls using **Three.js** and **React** in an optimized responsive pipeline.
-- **Tech**: `Three.js` • `React` • `Vite` • `WebGL`
-
-</details>
-
-<details open>
-<summary><b>▸ <code>./amn --telemetry // Real-Time GitHub Analytics</code></b></summary>
-<br/>
+### GitHub Activity & Statistics
 
 <div align="center">
 
@@ -128,39 +96,22 @@ I build end-to-end intelligent systems that bridge mathematical theory with prod
 
   <br/>
 
-  <img src="https://streak-stats.demolab.com/?user=amannnnnyyyy&theme=tokyonight&hide_border=true" alt="Streak Stats" />
+  <img src="https://streak-stats.demolab.com/?user=amannnnnyyyy&theme=tokyonight&hide_border=true" alt="Contribution Streak" />
 
 </div>
 
-</details>
-
 ---
 
-### 📡 AMN-OS Community Neural Logbook
-
-> **Interactive Terminal Feature**: Any visitor can submit a live transmission directly to this profile! Click below to record your handle and message into the active telemetry ledger:
-> 
-> 👉 **[Click Here to Transmit Handshake to the Logbook](https://github.com/amannnnnyyyy/amannnnnyyyy/issues/new?template=logbook_entry.yml)** 👈
-
-<!-- LOGBOOK:START -->
-| Timestamp (UTC) | Node / Visitor | Telemetry Transmission |
-| :---: | :---: | :--- |
-| `2026-11-14 20:55 UTC` | [@amannnnnyyyy](https://github.com/amannnnnyyyy) | System initialized. AMN-OS neural telemetry active. |
-<!-- LOGBOOK:END -->
-
----
-
-### 📬 Direct Handshake & Transmission
-
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│  OPERATOR: Amanuel Moha                                                │
-│  TRANSMISSION: mohaaman922@gmail.com                                   │
-│  NETWORK: github.com/amannnnnyyyy                                      │
-│  STATUS: OPEN FOR NEW OPPORTUNITIES & RESEARCH COLLABORATIONS          │
-└────────────────────────────────────────────────────────────────────────┘
-```
+### Contact & Profiles
 
 <div align="center">
-  <sub>⚡ <i>Powered by AMN-OS Core Daemon // Crafted with precision and clean architecture.</i></sub>
+
+  <a href="mailto:mohaaman922@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-mohaaman922%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/amannnnnyyyy">
+    <img src="https://img.shields.io/badge/GitHub-amannnnnyyyy-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+
 </div>
