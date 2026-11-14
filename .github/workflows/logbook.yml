@@ -1,0 +1,81 @@
+name: AMN-OS Community Neural Logbook
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  telemetry-handshake:
+    if: contains(github.event.issue.title, 'Logbook') || contains(github.event.issue.title, 'logbook') || contains(github.event.issue.labels.*.name, 'logbook')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Record Telemetry Entry in Profile README
+        run: |
+          python3 -c "
+          import os, re
+          from datetime import datetime
+
+          user = os.environ.get('USER_HANDLE', 'unknown-node')
+          raw_msg = os.environ.get('ENTRY_PAYLOAD', 'Transmitted handshake to AMN-OS.')
+
+          # Clean and sanitize input
+          clean_msg = raw_msg.replace('\r', ' ').replace('\n', ' ').replace('|', '&#124;').strip()
+          if len(clean_msg) > 110:
+              clean_msg = clean_msg[:107] + '...'
+          if not clean_msg:
+              clean_msg = 'Visiting the command deck.'
+
+          timestamp = datetime.utcnow().strftime('%Y-%m-%d %H:%M')
+
+          with open('README.md', 'r', encoding='utf-8') as f:
+              readme = f.read()
+
+          pattern = r'(<!-- LOGBOOK:START -->.*?\| :---: \| :--- \|\n)(.*?)(<!-- LOGBOOK:END -->)'
+          match = re.search(pattern, readme, re.DOTALL)
+          if match:
+              existing_lines = [l for l in match.group(2).strip().splitlines() if l.strip()]
+              new_row = f'| \`{timestamp} UTC\` | [@{user}](https://github.com/{user}) | {clean_msg} |'
+              # Keep top 8 recent entries
+              updated_rows = [new_row] + existing_lines[:7]
+              new_content = readme[:match.start(2)] + '\n'.join(updated_rows) + '\n' + readme[match.start(3):]
+              with open('README.md', 'w', encoding='utf-8') as f:
+                  f.write(new_content)
+              print('Successfully written entry to README!')
+          else:
+              print('Marker pattern not found.')
+          "
+        env:
+          USER_HANDLE: ${{ github.event.issue.user.login }}
+          ENTRY_PAYLOAD: ${{ github.event.issue.body }}
+
+      - name: Commit and Push Logbook Update
+        run: |
+          git config user.name "AMN-OS Telemetry Daemon"
+          git config user.email "daemon@amn-os.internal"
+          git add README.md
+          git commit -m "telemetry: recorded live handshake from @${{ github.event.issue.user.login }}" || exit 0
+          git push
+
+      - name: Transmit Confirmation Handshake & Close Signal
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `📡 **Transmission Confirmed!**\n\nYour telemetry entry has been permanently recorded in the **AMN-OS Neural Logbook** on [@amannnnnyyyy](https://github.com/amannnnnyyyy)'s profile command center.\n\nThank you for connecting to the station!`
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed'
+            });

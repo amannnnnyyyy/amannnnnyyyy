@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 390" width="100%" height="100%">
+  <defs>
+    <linearGradient id="terminalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5d4" />
+      <stop offset="100%" stop-color="#00bbf9" />
+    </linearGradient>
+    <linearGradient id="accentPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9d4edd" />
+      <stop offset="100%" stop-color="#c77dff" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.9; }
+      50% { opacity: 0.35; }
+    }
+    @keyframes typingText {
+      0% { opacity: 0.4; }
+      50% { opacity: 1; }
+      100% { opacity: 0.4; }
+    }
+    .cursor { animation: blink 0.9s infinite; fill: #00f5d4; }
+    .pulse { animation: pulseGlow 2.2s infinite ease-in-out; }
+    .code-text { font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', 'Courier New', monospace; font-size: 13px; }
+    .title-text { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-weight: 700; letter-spacing: 2px; }
+  </style>
+
+  <!-- Outer Shell with Neon Accent -->
+  <rect x="2" y="2" width="896" height="386" rx="14" fill="url(#terminalGrad)" stroke="#1e293b" stroke-width="2" />
+  <rect x="3" y="3" width="894" height="384" rx="13" fill="none" stroke="url(#neonCyan)" stroke-width="1.5" opacity="0.35" />
+
+  <!-- Window Header Bar -->
+  <rect x="2" y="2" width="896" height="42" rx="14" fill="#0b1120" />
+  <rect x="2" y="32" width="896" height="12" fill="#0b1120" />
+  <line x1="2" y1="44" x2="898" y2="44" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Window Controls -->
+  <circle cx="26" cy="23" r="6" fill="#ff5f56" />
+  <circle cx="48" cy="23" r="6" fill="#ffbd2e" />
+  <circle cx="70" cy="23" r="6" fill="#27c93f" />
+
+  <!-- Title Center -->
+  <text x="450" y="27" text-anchor="middle" fill="#94a3b8" class="title-text" font-size="12">AMN-OS v4.19 // NEURAL OPERATING CORE [STATION: ADDIS ABABA]</text>
+
+  <!-- Right Online Beacon -->
+  <circle cx="840" cy="23" r="4.5" fill="#00f5d4" filter="url(#glow)" class="pulse" />
+  <text x="852" y="27" fill="#00f5d4" class="code-text" font-size="11" font-weight="bold">ONLINE</text>
+
+  <!-- Line 1: Shell Prompt & Initializer -->
+  <g transform="translate(28, 80)">
+    <text x="0" y="0" fill="#00f5d4" class="code-text" font-weight="bold">operator@amn-core</text>
+    <text x="165" y="0" fill="#64748b" class="code-text">:</text>
+    <text x="180" y="0" fill="#c084fc" class="code-text">~/neural-systems</text>
+    <text x="325" y="0" fill="#e2e8f0" class="code-text">$ ./boot_sequence --identity="Amanuel Moha"</text>
+  </g>
+
+  <!-- Line 2: Identity Matrix -->
+  <g transform="translate(28, 112)">
+    <text x="0" y="0" fill="#38bdf8" class="code-text">[KERNEL-SYS]</text>
+    <text x="105" y="0" fill="#64748b" class="code-text">IDENT: </text>
+    <text x="160" y="0" fill="#ffffff" class="code-text" font-weight="bold">Amanuel Moha</text>
+    <text x="290" y="0" fill="#64748b" class="code-text">// SPEC: </text>
+    <text x="350" y="0" fill="#f59e0b" class="code-text">Machine Learning Engineer • Full-Stack • Android Core</text>
+  </g>
+
+  <!-- Subsystems Cards -->
+  <g transform="translate(28, 145)">
+    <!-- Subsystem 01: AI/NLP -->
+    <rect x="0" y="0" width="410" height="90" rx="9" fill="#090d16" stroke="#1e293b" stroke-width="1.2" />
+    <circle cx="20" cy="25" r="5" fill="#00f5d4" />
+    <text x="35" y="29" fill="#00f5d4" class="code-text" font-weight="bold">SUBSYSTEM 01 // INTELLIGENCE &amp; NLP</text>
+    <text x="20" y="55" fill="#cbd5e1" class="code-text" font-size="11">▸ XLM-RoBERTa Amharic NER &amp; Tokenizer Pipelines</text>
+    <text x="20" y="74" fill="#94a3b8" class="code-text" font-size="11">▸ Time-Series Quant: ARIMA • SARIMA • LSTM Forecasting</text>
+
+    <!-- Subsystem 02: Platform & Interactive UI -->
+    <rect x="434" y="0" width="410" height="90" rx="9" fill="#090d16" stroke="#1e293b" stroke-width="1.2" />
+    <circle cx="454" cy="25" r="5" fill="#c084fc" />
+    <text x="469" y="29" fill="#c084fc" class="code-text" font-weight="bold">SUBSYSTEM 02 // PLATFORM &amp; RUNTIMES</text>
+    <text x="454" y="55" fill="#cbd5e1" class="code-text" font-size="11">▸ Native Android: Kotlin • Jetpack Compose • MVI</text>
+    <text x="454" y="74" fill="#94a3b8" class="code-text" font-size="11">▸ Modern Web: React • Next.js • Three.js 3D Shaders</text>
+  </g>
+
+  <!-- Telemetry Strip -->
+  <g transform="translate(28, 265)">
+    <rect x="0" y="0" width="844" height="46" rx="8" fill="#0b1120" stroke="#1e293b" stroke-width="1" />
+    
+    <text x="22" y="28" fill="#64748b" class="code-text">CORE STATUS:</text>
+    <text x="135" y="28" fill="#22c55e" class="code-text" font-weight="bold">ACTIVE [0 FAULTS]</text>
+
+    <text x="320" y="28" fill="#64748b" class="code-text">REPOSITORIES:</text>
+    <text x="435" y="28" fill="#38bdf8" class="code-text" font-weight="bold">43 PUBLISHED</text>
+
+    <text x="590" y="28" fill="#64748b" class="code-text">CLEARANCE:</text>
+    <text x="690" y="28" fill="#eab308" class="code-text" font-weight="bold">LEVEL 5 [VERIFIED]</text>
+  </g>
+
+  <!-- Interactive Prompt Line -->
+  <g transform="translate(28, 345)">
+    <text x="0" y="0" fill="#00f5d4" class="code-text" font-weight="bold">operator@amn-core</text>
+    <text x="165" y="0" fill="#64748b" class="code-text">:</text>
+    <text x="180" y="0" fill="#c084fc" class="code-text">~</text>
+    <text x="195" y="0" fill="#e2e8f0" class="code-text">$ amn.dispatch --mission="build_next_gen_intelligence"</text>
+    <rect x="670" y="-12" width="9" height="16" class="cursor" />
+  </g>
+</svg>
