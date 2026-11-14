@@ -71,11 +71,11 @@ I am a Software Engineer and Machine Learning Practitioner with a strong focus o
 
 | Project | Description | Stack | Link |
 | :--- | :--- | :--- | :---: |
-| **Amharic NER for Telegram** | Named Entity Recognition pipeline for EthioMart consolidating unstructured Telegram e-commerce data. Includes ingestion, preprocessing, and fine-tuning multilingual models (XLM-RoBERTa). |    | [Repository](https://github.com/amannnnnyyyy/Amharic-NER-for-Telegram) |
-| **Finance Forecast & Portfolio Optimizer** | Time-series forecasting and portfolio risk optimization using ARIMA, SARIMA, and LSTM neural networks for financial trend prediction and asset allocation. |    | [Repository](https://github.com/amannnnnyyyy/Finance-Forecast-Portfolio-Optimizer) |
-| **Telegram Medical Data Warehouse** | Data warehouse and analytical ETL pipeline designed to extract, clean, and analyze health and medical business data from public communication channels. |    | [Repository](https://github.com/amannnnnyyyy/telegram-medical-business-data) |
-| **Simple Dictionary & Crew** | Native Android applications built with declarative UI in Jetpack Compose, featuring clean architecture and reactive state management. |    | [Repository](https://github.com/amannnnnyyyy/Simple-Dictionary-App) |
-| **Three.js Portfolio & Web Platform** | Interactive web experience powered by Three.js, React, and Vite, featuring 3D scene rendering, custom animations, and responsive UI design. |    | [Repository](https://github.com/amannnnnyyyy/PortfolioWebsite) |
+| **Amharic NER for Telegram** | Named Entity Recognition pipeline for EthioMart consolidating unstructured Telegram e-commerce data. Includes ingestion, preprocessing, and fine-tuning multilingual models (XLM-RoBERTa). | `Python` `Transformers` `PyTorch` | [Repository](https://github.com/amannnnnyyyy/Amharic-NER-for-Telegram) |
+| **Finance Forecast & Portfolio Optimizer** | Time-series forecasting and portfolio risk optimization using ARIMA, SARIMA, and LSTM neural networks for financial trend prediction and asset allocation. | `Python` `LSTM` `Time-Series` | [Repository](https://github.com/amannnnnyyyy/Finance-Forecast-Portfolio-Optimizer) |
+| **Telegram Medical Data Warehouse** | Data warehouse and analytical ETL pipeline designed to extract, clean, and analyze health and medical business data from public communication channels. | `Python` `ETL` `Data Warehouse` | [Repository](https://github.com/amannnnnyyyy/telegram-medical-business-data) |
+| **Simple Dictionary & Crew** | Native Android applications built with declarative UI in Jetpack Compose, featuring clean architecture and reactive state management. | `Kotlin` `Jetpack Compose` `Android` | [Repository](https://github.com/amannnnnyyyy/Simple-Dictionary-App) |
+| **Three.js Portfolio & Web Platform** | Interactive web experience powered by Three.js, React, and Vite, featuring 3D scene rendering, custom animations, and responsive UI design. | `React` `Three.js` `TypeScript` | [Repository](https://github.com/amannnnnyyyy/PortfolioWebsite) |
 
 ---
 
@@ -102,7 +102,7 @@ I am a Software Engineer and Machine Learning Practitioner with a strong focus o
 
 ---
 
-### Contact & Profiles
+### Contact & Connect
 
 <div align="center">
 
