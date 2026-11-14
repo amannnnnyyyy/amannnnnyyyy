@@ -86,17 +86,21 @@ I am a Software Engineer and Machine Learning Practitioner with a strong focus o
   <table border="0" cellspacing="0" cellpadding="0">
     <tr>
       <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=amannnnnyyyy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="175" alt="GitHub Stats" />
+        <img src="https://github-readme-stats-fast.vercel.app/api?username=amannnnnyyyy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="175" alt="GitHub Stats" />
       </td>
       <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amannnnnyyyy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="175" alt="Top Languages" />
+        <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=amannnnnyyyy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="175" alt="Top Languages" />
       </td>
     </tr>
   </table>
 
   <br/>
 
-  <img src="https://streak-stats.demolab.com/?user=amannnnnyyyy&theme=tokyonight&hide_border=true" alt="Contribution Streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amannnnnyyyy/amannnnnyyyy/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amannnnnyyyy/amannnnnyyyy/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/amannnnnyyyy/amannnnnyyyy/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
 
 </div>
 
