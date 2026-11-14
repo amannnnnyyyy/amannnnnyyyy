@@ -75,7 +75,7 @@ Hello and welcome! I am **Amanuel Moha**, a versatile **Software Engineer** and 
 | **Amharic NER for Telegram E-Commerce** | Named Entity Recognition system for EthioMart consolidating unstructured Telegram e-commerce data. Includes ingestion, preprocessing, and fine-tuning multilingual models (**XLM-RoBERTa**). | [View Repo](https://github.com/amannnnnyyyy/Amharic-NER-for-Telegram) |
 | **Finance Forecast & Portfolio Optimizer** | Time-series forecasting and portfolio risk optimization using **ARIMA**, **SARIMA**, and **LSTM** neural networks for financial trend prediction and asset allocation. | [View Repo](https://github.com/amannnnnyyyy/Finance-Forecast-Portfolio-Optimizer) |
 | **Ethiopian Medical Business Data Warehouse** | Robust data warehouse and analytical ETL pipeline designed to extract, clean, and analyze health & medical business insights from public channels. | [View Repo](https://github.com/amannnnnyyyy/telegram-medical-business-data) |
-| **Jetpack Compose Native Android Apps** | Modern, reactive native Android applications developed in **Kotlin** with declarative UI using **Jetpack Compose** (, ). | [View Repo](https://github.com/amannnnnyyyy/Simple-Dictionary-App) |
+| **Jetpack Compose Native Android Apps** | Modern, reactive native Android applications developed in **Kotlin** with declarative UI using **Jetpack Compose** (`Crew`, `Simple-Dictionary-App`). | [View Repo](https://github.com/amannnnnyyyy/Simple-Dictionary-App) |
 | **Interactive 3D Portfolio & Web Apps** | Immersive web experience powered by **Three.js**, **React**, and **Vite** showcasing interactive 3D graphics, animations, and modern responsive design. | [View Repo](https://github.com/amannnnnyyyy/PortfolioWebsite) |
 
 ---
